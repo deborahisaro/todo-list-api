@@ -24,7 +24,7 @@ This is a simple To-Do List API built with Express.js that allows users to manag
 
 1. Clone this repository:
 ```bash
-   git clone <your-repo-url>
+   git clone <https://github.com/deborahisaro/todo-list-api.git>
 ```
 
 2. Navigate to the project folder:
