@@ -104,7 +104,16 @@ app.put("/tasks/:id",(req,res)=>{
   task.title = updated.title
   task.completed = updated.completed
 })
-console.log("hegeheheh");
+
+app.delete("/tasks/:id";(req,res)=>{
+  const id= parseInt(req.params.id);
+  const updated = tasks.filter(td => td.id !=);
+  tasks = updated;
+  res.send("task deleted");
+})
+
+
+
 
 
 
