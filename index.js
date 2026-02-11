@@ -98,7 +98,12 @@ app.get("/tasks/:id",(req,res)=>{
   res.json(tasks)
 })
 
-
+app.put("/tasks/:id",(req,res)=>{
+  const id = parseInt(req.params.id);
+  const task = tasks.find(td => td.id = = id);
+  task.title = updated.title
+  task.completed = updated.completed
+})
 
 
 
