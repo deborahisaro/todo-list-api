@@ -92,7 +92,11 @@ app.post("/tasks",(req,res)=>{
   res.status(201).send("Tasks added");
 })
 
-
+app.get("/tasks/:id",(req,res)=>{
+  const id = req.params.id;
+  console.log(id);
+  res.json(tasks)
+})
 
 
 
