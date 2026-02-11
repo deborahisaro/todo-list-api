@@ -86,8 +86,12 @@ app.get("/tasks",(req,res)=>{
   res.json(tasks)
 })
 
-
-
+app.post("/tasks",(req,res)=>{
+  const newTask = req.body;
+  tasks.push(newTask);
+  res.status(201).send("Tasks added");
+})
+console.log("i have a potatoe")
 
 
 
