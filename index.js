@@ -105,14 +105,15 @@ app.put("/tasks/:id",(req,res)=>{
   task.completed = updated.completed
 })
 
+
 app.delete("/tasks/:id";(req,res)=>{
   const id= parseInt(req.params.id);
   const updated = tasks.filter(td => td.id !=);
   tasks = updated;
   res.send("task deleted");
-})
+});
 
-.
+
 
 
 
