@@ -112,8 +112,7 @@ app.delete("/tasks/:id";(req,res)=>{
   tasks = updated;
   res.send("task deleted");
 });
-
-
+console.log("Server is running on http://localhost:3000");
 
 
 
